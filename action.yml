@@ -83,7 +83,6 @@ runs:
 
     # Destroy
     - name: Destroy ${{ inputs.clusterId }}
-      if: ${{ always() }}
       shell: bash
       run: |
         echo "*** Destroy ${{ inputs.clusterId }} ***"
