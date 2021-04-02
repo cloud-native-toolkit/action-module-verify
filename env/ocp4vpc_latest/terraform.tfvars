@@ -1,4 +1,4 @@
-resource_group_name="toolkit-dev"
+resource_group_name="toolkit-dev2"
 vpc_cluster="true"
 name_prefix="ocp4vpc-latest2"
 key-protect-region="us-east"
