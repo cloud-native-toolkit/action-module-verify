@@ -1,6 +1,6 @@
 resource_group_name="toolkit-dev"
 vpc_cluster="true"
-name_prefix="ocp4vpc-latest11"
+name_prefix="ocp4vpc-latest12"
 key-protect-region="us-east"
 key-protect-name="ocp4-latest-key-protect"
 key-protect-key="test-root-key"
