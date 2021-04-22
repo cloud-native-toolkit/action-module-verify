@@ -24,3 +24,4 @@ hpcs-resource-group = "appdev-cloud-native"
 hpcs-name = "appdev-cloud-native-hpcs"
 hpcs-key  = "d9d7811e-afd5-41dd-89da-c472b89fd896"
 hpcs-region = "us-south"
+
