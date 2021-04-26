@@ -1,0 +1,7 @@
+resource_group_name="vpc-count-rg"
+region="us-east"
+name_prefix="vpc-count-cidr"
+vpc_subnet_count="6"
+vpc_subnets="[]"
+vpc_public_gateway="false"
+ipv4_cidr_blocks="10.10.10.0/24,10.10.20.0/24,10.10.30.0/24,10.20.10.0/24,10.20.20.0/24,10.20.30.0/24"
