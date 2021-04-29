@@ -1,6 +1,6 @@
 resource_group_name="vpc-count-rg"
 region="us-east"
-name_prefix="vpc-count"
-vpc_subnet_count="6"
+name_prefix="vpc-count1"
+vpc_subnet_count="2"
 vpc_subnets="[]"
 vpc_public_gateway="true"
