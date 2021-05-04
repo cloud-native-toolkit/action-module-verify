@@ -21,6 +21,8 @@ provision_sysdig="false"
 vpc_public_gateway="true"
 scc_registration_key="635deab6-d12d-456d-8523-7faec6ce84c2"
 hpcs_name="appdev-cloud-native-hpcs"
+hpcs_region="us-south"
+hpcs_resource_group_name="appdev-cloud-native"
 kms_key_id="22808457-81cd-44a2-8ab6-668881eb7130"
 kms_enabled="true"
 
