@@ -26,4 +26,5 @@ hpcs_resource_group_name="appdev-cloud-native"
 kms_key_id="22808457-81cd-44a2-8ab6-668881eb7130"
 kms_key_name="cloud-native-toolkit-test"
 kms_enabled="true"
+bucket_name="ocp4-latest-hpcs-test-bucket"
 
