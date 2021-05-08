@@ -1,4 +1,3 @@
-resource_group_name="toolkit-dev"
 vpc_cluster="true"
 name_prefix="ocp4vpc-latest13"
 key-protect-region="us-east"
