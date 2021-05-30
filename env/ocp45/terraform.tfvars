@@ -1,6 +1,6 @@
 resource_group_name="toolkit-dev"
 region="us-east"
-cluster_name="toolkit-dev-ocp46"
+cluster_name="toolkit-dev-ocp45"
 cluster_type="ocp4"
 vpc_cluster="true"
 name_prefix="ocp4_latest"
