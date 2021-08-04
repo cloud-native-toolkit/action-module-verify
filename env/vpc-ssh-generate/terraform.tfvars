@@ -1,0 +1,5 @@
+resource_group_name="toolkit-dev"
+region="us-east"
+name_prefix="vpcssh-generate"
+public_key=""
+private_key=""
