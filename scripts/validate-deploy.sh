@@ -2,7 +2,9 @@
 
 SCRIPT_DIR=$(cd $(dirname "$0"); pwd -P)
 
-export KUBECONFIG="${PWD}/.kube/config"
+if [[ -z "${KUBECONFIG}" ]]; then
+  export KUBECONFIG="${PWD}/.kube/config"
+fi
 
 CLUSTER_TYPE="$1"
 NAMESPACE="$2"
