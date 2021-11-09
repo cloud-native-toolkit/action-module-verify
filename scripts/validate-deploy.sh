@@ -2,6 +2,10 @@
 
 SCRIPT_DIR=$(cd $(dirname "$0"); pwd -P)
 
+if [[ -f ".kubeconfig" ]]; then
+  export KUBECONFIG=$(cat .kubeconfig)
+fi
+
 if [[ -z "${KUBECONFIG}" ]]; then
   export KUBECONFIG="${PWD}/.kube/config"
 fi
