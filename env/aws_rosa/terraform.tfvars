@@ -2,7 +2,7 @@
 region              = "ap-south-1"
 existing_vpc        = true
 provision           = true
-dry_run             = true
+dry_run             = false
 prefix_name         = "swe-rosa"
 
 cluster_name        = "ind-rosa3-vpc"
