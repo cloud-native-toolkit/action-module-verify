@@ -5,7 +5,7 @@ provision           = true
 dry_run             = false
 prefix_name         = "swe-rosa"
 
-cluster_name        = "ind-rosa3-vpc"
+cluster_name        = "ind-rosa-oldvpc"
 ocp_version         = "4.9.15"
 no_of_compute_nodes = 2
 machine-cidr        = "10.0.0.0/16"
