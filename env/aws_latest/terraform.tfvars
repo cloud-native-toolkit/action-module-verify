@@ -67,3 +67,11 @@ acl_rules_pri_out=[
       cidr_block  = "0.0.0.0/0"
     },
 ]
+
+
+description="KMS Keys for Data Encryption"
+key_spec="SYMMETRIC_DEFAULT"
+rotation_enabled="true"
+enabled="true"
+alias="kms-storage"
+kms_alias="kms-storage-alias"
