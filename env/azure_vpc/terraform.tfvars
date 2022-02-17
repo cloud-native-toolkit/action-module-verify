@@ -1,4 +1,4 @@
-region="Texas"
+region="southcentralus"
 
 resource_group_name="vpc-test"
 
