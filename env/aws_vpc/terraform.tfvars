@@ -2,6 +2,8 @@ cloud_provider="aws"
 
 region="ap-south-1"
 
+resource_group_name="vpc-base"
+
 #VPC module: New VPC
 provision=true
 prefix_name="swe"
