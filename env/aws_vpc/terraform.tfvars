@@ -1,3 +1,5 @@
+cloud_provider="aws"
+
 region="ap-south-1"
 
 #VPC module: New VPC

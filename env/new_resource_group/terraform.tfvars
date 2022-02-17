@@ -1,3 +1,4 @@
+cloud_provider="ibm"
 vpc_cluster="true"
 name_prefix="ocp4vpc-latest13"
 key-protect-region="us-east"
