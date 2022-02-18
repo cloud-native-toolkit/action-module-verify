@@ -1,4 +1,6 @@
 region="ap-south-1"
+prefix_name="swe_ec2"
+name_prefix="swe_ec2"
 vpc_id                      = "vpc-04f723f4bca6e8583"
 subnet_count_private        = 1
 subnet_count_public         = 1
