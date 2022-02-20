@@ -1,6 +1,6 @@
 cloud_provider="azure"
 
-region="southcentralus"
+region="eastus2"
 
 resource_group_name="vpc-test"
 
