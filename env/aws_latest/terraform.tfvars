@@ -1,8 +1,9 @@
 region="ap-south-1"
+cloud_provider="aws"
 
 #VPC module  module 
 provision= true
-prefix_name="swe"
+prefix_name="swe1"
 internal_cidr="10.0.0.0/16"
 instance_tenancy="default"
 
