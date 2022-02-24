@@ -1,6 +1,6 @@
 cloud_provider="azure"
 
-region="eastus2"
+region="eastus"
 
 resource_group_name="vpc-test"
 
