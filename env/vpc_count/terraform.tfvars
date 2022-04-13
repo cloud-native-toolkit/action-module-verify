@@ -1,5 +1,5 @@
 resource_group_name="vpc-count-rg"
-region="eu-de"
+region="eu-gb"
 name_prefix="vpc-count3"
 vpc_subnet_count="2"
 vpc_subnets="[]"

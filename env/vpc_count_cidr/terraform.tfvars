@@ -1,5 +1,5 @@
 resource_group_name="vpc-count-rg"
-region="us-east"
+region="eu-gb"
 name_prefix="vpc-count-cidr"
 vpc_subnet_count="6"
 vpc_subnets="[]"
