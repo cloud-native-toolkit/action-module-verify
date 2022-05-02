@@ -1,11 +1,11 @@
-server_url="https://api.ocp-48-maximo.clusters.azure.ibm-software-everywhere.dev:6443"
-ingress_subdomain="console-openshift-console.apps.ocp-48-maximo.clusters.azure.ibm-software-everywhere.dev"
+server_url="https://api.u5fcy5cr.eastus.aroapp.io:6443"
+ingress_subdomain="u5fcy5cr.eastus.aroapp.io"
 
 kubeseal_namespace="sealed-secrets"
 
 region="eastus"
-cluster_name="ocp-48-maximo"
-resource_group_name="ocp-48-maximo-5boq2-rg"
+#cluster_name="ocp-48-maximo"
+#resource_group_name="ocp-48-maximo-5boq2-rg"
 
 
 px_cluster_id="px-cluster-1d5e55ce-1a66-46b0-b415-4c218efa8543"
