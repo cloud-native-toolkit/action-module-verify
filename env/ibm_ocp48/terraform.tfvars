@@ -4,8 +4,7 @@ resource_group_name="toolkit-dev"
 resource_group_provision="false"
 access_group_provision="false"
 region="us-east"
-cluster_name="
-toolkit-dev48"
+cluster_name="toolkit-dev48"
 cluster_type="ocp4"
 vpc_subnet_count=3
 worker_count=1
