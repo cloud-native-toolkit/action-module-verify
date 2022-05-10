@@ -1,7 +1,7 @@
 resource_group_name="toolkit-dev"
 resource_group_provision="false"
 access_group_provision="false"
-region="us-east"
+region="us-south"
 cluster_name="toolkit-dev-ocp48"
 cluster_type="ocp4"
 vpc_subnet_count=3
