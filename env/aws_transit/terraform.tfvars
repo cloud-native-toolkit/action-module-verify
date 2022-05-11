@@ -5,8 +5,9 @@ name_prefix_work    = "swe-std-advance-work"
 name_prefix_menage  = "swe-std-advance-menage"
 resource_group_name = "vpc-advance"
 route_to_cidr_blocks= ["10.1.0.0/16", "10.2.0.0/16"]
-#VPN Client
-
+route_to_cidr_blocks_menage= ["10.0.0.0/16", "10.2.0.0/16", "0.0.0.0/0"]
+route_to_cidr_blocks_work= ["10.1.0.0/16", "10.0.0.0/16", "0.0.0.0/0"]
+#vpn
 client_cidr_block = "172.61.0.0/16"
 dns_servers       = ["10.1.0.2", "10.2.0.2"]
 
