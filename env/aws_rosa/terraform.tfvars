@@ -1,7 +1,7 @@
 region="ap-south-1"
 provision= true
-name_prefix="sw-bz"
-resource_group_name="vpc-baseb"
+name_prefix="sw-by"
+resource_group_name="vpc-basey"
 
 #vpc:
 internal_cidr       = "10.0.0.0/16"
@@ -20,46 +20,46 @@ gateways_count=3
 #ngw
 connectivity_type="public"
 
-acl_rules_pub = [
-    {
-      rule_number = 100
-      rule_action = "allow"
-      egress = false      
-      from_port   = 0
-      to_port     = 0
-      protocol    = "-1"
-      cidr_block  = "0.0.0.0/0"
-    },
-    {
-      rule_number = 100
-      rule_action = "allow"
-      egress = true
-      from_port   = 0
-      to_port     = 0
-      protocol    = "-1"
-      cidr_block  = "0.0.0.0/0"
-    },
-]  
-acl_rules_pri = [
-    {
-      rule_number = 100
-      rule_action = "allow"
-      egress = false      
-      from_port   = 0
-      to_port     = 0
-      protocol    = "-1"
-      cidr_block  = "0.0.0.0/0"
-    },
-    {
-      rule_number = 100
-      rule_action = "allow"
-      egress = true
-      from_port   = 0
-      to_port     = 0
-      protocol    = "-1"
-      cidr_block  = "0.0.0.0/0"
-    },
-]  
+# acl_rules_pub = [
+#     {
+#       rule_number = 100
+#       rule_action = "allow"
+#       egress = false      
+#       from_port   = 0
+#       to_port     = 0
+#       protocol    = "-1"
+#       cidr_block  = "0.0.0.0/0"
+#     },
+#     {
+#       rule_number = 100
+#       rule_action = "allow"
+#       egress = true
+#       from_port   = 0
+#       to_port     = 0
+#       protocol    = "-1"
+#       cidr_block  = "0.0.0.0/0"
+#     },
+# ]  
+# acl_rules_pri = [
+#     {
+#       rule_number = 100
+#       rule_action = "allow"
+#       egress = false      
+#       from_port   = 0
+#       to_port     = 0
+#       protocol    = "-1"
+#       cidr_block  = "0.0.0.0/0"
+#     },
+#     {
+#       rule_number = 100
+#       rule_action = "allow"
+#       egress = true
+#       from_port   = 0
+#       to_port     = 0
+#       protocol    = "-1"
+#       cidr_block  = "0.0.0.0/0"
+#     },
+# ]  
 
 #rosa variables
 existing_vpc        = true
@@ -68,7 +68,7 @@ multi-zone-cluster=true
 private-link        = false
 cluster_name=""
 ocp_version         = "4.9.15"
-no_of_compute_nodes=3
+no_of_compute_nodes=1
 machine-cidr        = "10.0.0.0/16"
 service-cidr        = "172.30.0.0/16"
 pod-cidr            = "10.128.0.0/14"
