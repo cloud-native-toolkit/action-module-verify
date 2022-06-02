@@ -1,5 +1,5 @@
-server_url="https://api.s1sfss3q.eastus.aroapp.io:6443"
-ingress_subdomain="s1sfss3q.eastus.aroapp.io"
+server_url="https://api.jq47kjdf.eastus.aroapp.io:6443/"
+ingress_subdomain="jq47kjdf.eastus.aroapp.io"
 
 kubeseal_namespace="sealed-secrets"
 
