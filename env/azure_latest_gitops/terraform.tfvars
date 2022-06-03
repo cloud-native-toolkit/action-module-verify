@@ -1,5 +1,5 @@
-server_url="https://api.jq47kjdf.eastus.aroapp.io:6443/"
-ingress_subdomain="jq47kjdf.eastus.aroapp.io"
+server_url="https://api.gitops-dev.ocp-azure.ibm-software-everywhere.dev:6443"
+ingress_subdomain="gitops-dev.ocp-azure.ibm-software-everywhere.dev"
 
 kubeseal_namespace="sealed-secrets"
 
