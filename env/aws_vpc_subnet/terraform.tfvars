@@ -6,15 +6,14 @@ resource_group_name="vpc-base"
 #vpc:
 internal_cidr       = "10.0.0.0/16"
 instance_tenancy    = "default"
-availability_zones=["ap-south-1a","ap-south-1b"]
-
+#availability_zones=["us-east-2a","us-east-2c"]
+multi-zone = true
 #pulic subnet
-pub_subnet_cidrs=["10.0.0.0/20","10.0.125.0/24"]
-num_of_public_subnets=2
+pub_subnet_cidrs=["10.0.0.0/20", "10.0.16.0/20", "10.0.32.0/20"] #["10.0.0.0/20","10.0.125.0/24"]
 
 #private subnet
 priv_subnet_cidrs=["10.0.128.0/20","10.0.144.0/20"]
-num_of_private_subnets=2
+
 
 #ngw
 # connectivity_type="public"
