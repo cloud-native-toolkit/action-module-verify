@@ -1,4 +1,4 @@
-region              = "us-east-1" #"ap-south-1" #us-east-1
+region              = "ap-south-1" #us-east-1
 provision           = true
 name_prefix         = "bom-ro"
 resource_group_name = "vpc-ro"
