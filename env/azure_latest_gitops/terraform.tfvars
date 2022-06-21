@@ -1,5 +1,5 @@
-server_url="https://api.gitops-dev.ocp-azure.ibm-software-everywhere.dev:6443"
-ingress_subdomain="gitops-dev.ocp-azure.ibm-software-everywhere.dev"
+server_url="https://api.gitops-cntk-dev.ocp-azure.ibm-software-everywhere.dev:6443"
+ingress_subdomain="gitops-cntk-dev.ocp-azure.ibm-software-everywhere.dev"
 
 kubeseal_namespace="sealed-secrets"
 
