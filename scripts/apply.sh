@@ -9,4 +9,4 @@ rm -rf "${SRC_DIR}/state"
 
 echo ""
 
-terraform init && terraform apply -auto-approve
+terraform init && terraform apply -parallelism=3 -auto-approve
