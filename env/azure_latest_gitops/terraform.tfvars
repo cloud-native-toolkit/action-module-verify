@@ -5,7 +5,7 @@ kubeseal_namespace="sealed-secrets"
 
 region="eastus"
 #cluster_name="ocp-48-maximo"
-#resource_group_name="ocp-48-maximo-5boq2-rg"
+resource_group_name="gitops-cntk-dev-kb72g-rg"
 
 
 px_cluster_id="px-cluster-1d5e55ce-1a66-46b0-b415-4c218efa8543"
