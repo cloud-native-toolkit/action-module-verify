@@ -1,4 +1,4 @@
-region="ap-south-1"
+region="us-west-2"
 cloud_provider="aws"
 
 #VPC module  module 
