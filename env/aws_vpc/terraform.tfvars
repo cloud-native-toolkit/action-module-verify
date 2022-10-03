@@ -12,6 +12,7 @@ internal_cidr="10.0.0.0/16"
 instance_tenancy="default"
 #kms
 user_arn="arn:aws:iam::005990573564:root"
+kms_alias="kms-storage"
 
 #Nat Gateaway
 #connectivity_type="private"  #public / private
