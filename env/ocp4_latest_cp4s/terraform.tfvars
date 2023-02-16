@@ -11,4 +11,3 @@ ingress_subdomain="dev-cp4s-0ed2b1307d0ce0e0627ae949f443cd72-0000.us-east.contai
 login_user="apikey"
 cluster_exists="true"
 cluster_type="ocp4"
-bootstrap_prefix="ocp4_cp4s"
