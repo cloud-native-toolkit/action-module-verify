@@ -1,4 +1,4 @@
 resource_group_name="toolkit-dev"
 region="us-east"
-cluster_name="iks-test"
+cluster_name="iks-test2"
 
